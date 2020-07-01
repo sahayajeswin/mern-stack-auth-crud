@@ -1,0 +1,32 @@
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+
+//Product Action Types
+export const SAVE_PRO_SUCCESS = 'SAVE_PRO_SUCCESS';
+export const SAVE_PRO_FAIL = 'SAVE_PRO_FAIL';
+
+export const UPDATE_PRO_EDIT_DATA = 'UPDATE_PRO_EDIT_DATA';
+export const CLEAR_PRO_EDIT_DATA = 'CLEAR_PRO_EDIT_DATA';
+
+
+export const UPDATE_PRO_SUCCESS = 'UPDATE_PRO_SUCCESS';
+export const UPDATE_PRO_FAIL = 'UPDATE_PRO_FAIL';
+
+export const FETCH_PRO_SUCCESS = 'FETCH_PRO_SUCCESS';
+export const FETCH_PRO_FAIL = 'FETCH_PRO_FAIL';
+
+export const DELETE_PRO_SUCCESS = 'DELETE_PRO_SUCCESS';
+export const DELETE_PRO_FAIL = 'DELETE_PRO_FAIL';
+

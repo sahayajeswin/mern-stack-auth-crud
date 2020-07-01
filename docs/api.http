@@ -1,0 +1,26 @@
+@host = http://localhost:5000/api
+@userToken = ""
+
+### Add New Customers
+POST {{host}}/users/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Sahaya Jeswin",
+	"email": "sahayajeswin+2@gmail.com",
+	"password": "Jeswin!23",
+	"password2": "Jeswin!23"
+}
+
+### Customer Login
+POST {{host}}/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+	"email": "sahayajeswin@gmail.com",
+	"password": "Jeswin!23"
+}
+
+#####---- Customers ----######
+GET {{host}}/users/ HTTP/1.1
+Authorization: Bearer {{userToken}}
